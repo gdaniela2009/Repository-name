@@ -3,6 +3,16 @@ a = list() #массив с последовательностью
 a = input()
 af = list() #массив с частотами
 
+sch = 0 
+i = int() 
+for i in a: 
+    sch+=1 
+print (sch)
+
+for i in a:
+    af[i]=a.count(a[i])
+print(af)
+
 #функция для поиска кода каждой буквы
 #dS - среднее значение масива, m - номер средней буквы, S - сумма чисел
 #c_branch - текущая история поворотов по веткам
@@ -18,7 +28,9 @@ def SearchTree (branch, full_branch, start_pos, end_pos, dS, i, m, S, c_branch):
 
 #Подсчет среднего значения
 dS = 0
-for i in a:
+i = int()
+while i <= sch:
+    i = int()
     dS = dS+af[i]
     dS = dS/2
     s = 0
