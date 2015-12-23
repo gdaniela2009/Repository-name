@@ -28,3 +28,9 @@ for i in a:
 while (S+af[i]<dS) and (i<end_pos):
     i+=1
     m+=1
+SearchTree('1', c_branch, start_pos, m)
+SearchTree('0', c_branch, m+1, end_pos)
+
+print('Press <enter> to show')
+input
+SearchTree(' ',' ', 1, 6)
