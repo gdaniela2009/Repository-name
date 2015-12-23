@@ -7,10 +7,10 @@ af = list() #массив с частотами
 #dS - среднее значение масива, m - номер средней буквы, S - сумма чисел
 #c_branch - текущая история поворотов по веткам
 # def - проверка если это вход нулевой то очистить историю
-def SearchTree (branch, full_ branch, start_pos, end_pos, dS, i, m, S, c_branch):
+def SearchTree (branch, full_branch, start_pos, end_pos, dS, i, m, S, c_branch):
     if a!=' ':
        c_branch = full_branch + branch
-       else:
+    else:
            c_branch = ' '
 
     if start_pos == end_pos:
